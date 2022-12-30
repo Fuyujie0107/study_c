@@ -14,9 +14,10 @@ int is_leap_year(int year)
 		return 0;
 }
 
-int main(int x)
+int main()
 {
-   scanf("%d",&x);
+   //scanf("%d",&x);
+   int x = 2020;
    is_leap_year(x);
    return 0;
 }
